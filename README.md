@@ -5,7 +5,7 @@
 ----------
 
 
-**Requirements (Developer one time setup):**
+**Requirements (one time setup):**
 
 1. download and create Dropbox account - http://dropbox.com
 2.  install it in the Computer
@@ -57,3 +57,4 @@ Client.html file:
     	<script type="text/javascript" src="https://dl.dropbox.com/s/d8iiat0hwurqs5d/banner-ads.js"></script>
     	
     </body></html>
+https://dl.dropboxusercontent.com/s/jgecmio9x9cxjgb/test.html
