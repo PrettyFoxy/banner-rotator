@@ -31,6 +31,7 @@
 1. banner rotator file (public Dropbox JS file):
 https://dl.dropbox.com/s/d8iiat0hwurqs5d/banner-ads.js
 2. changes.txt - https://dl.dropbox.com/s/sckr503hpz0c39f/changes.txt
+
 IMAGE URL LINKS (contents):
  https://www.dropbox.com/s/8bjr0gdc7us3ivk/header-1.png?dl=0
 https://www.dropbox.com/s/z51j2k421kh8s1q/header-2.png?dl=0
