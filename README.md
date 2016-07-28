@@ -47,7 +47,7 @@ Note:  must modified ***banner-ads.js*** with below code: (containing the ***cha
 
 
 
-Client.html file:
+Client.html file (https://dl.dropboxusercontent.com/s/jgecmio9x9cxjgb/test.html):
 
     <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     	<title>test</title>
@@ -57,4 +57,3 @@ Client.html file:
     	<script type="text/javascript" src="https://dl.dropbox.com/s/d8iiat0hwurqs5d/banner-ads.js"></script>
     	
     </body></html>
-https://dl.dropboxusercontent.com/s/jgecmio9x9cxjgb/test.html
