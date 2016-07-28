@@ -19,7 +19,7 @@
 **Steps for adding banners images (User):**
 
 1. Upload the photos to dropbox
-2. Copy the dropbox link
+2. **Right Click** the image file and Click "**Copy the dropbox link**"
 3. Paste the link to the ***changes.txt*** file inside the Dropbox folder
 
 
