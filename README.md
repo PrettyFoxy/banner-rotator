@@ -5,7 +5,7 @@
 ----------
 
 
-**Requirements (one time setup):**
+**Requirements (Developer one time setup):**
 
 1. download and create Dropbox account - http://dropbox.com
 2.  install it in the Computer
