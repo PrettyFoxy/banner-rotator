@@ -6,6 +6,7 @@
 
 
 **Requirements (one time setup):**
+
 1. download and create Dropbox account - http://dropbox.com
 2.  install it in the Computer
 3. add ***banner-ads.js*** to the Dropbox folder (https://dl.dropbox.com/s/d8iiat0hwurqs5d/banner-ads.js)
@@ -16,6 +17,7 @@
 
 
 **Steps for adding banners images (User):**
+
 1. Upload the photos to dropbox
 2. Copy the dropbox link
 3. Paste the link to the ***changes.txt*** file inside the Dropbox folder
@@ -25,6 +27,7 @@
 
 
 **Example:**
+
 1. banner rotator file (public Dropbox JS file):
 https://dl.dropbox.com/s/d8iiat0hwurqs5d/banner-ads.js
 2. changes.txt - https://dl.dropbox.com/s/sckr503hpz0c39f/changes.txt
