@@ -46,3 +46,14 @@ Note:  must modified ***banner-ads.js*** with below code: (containing the ***cha
     // some codes here
 
 
+
+Client.html file:
+
+    <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    	<title>test</title>
+    </head>
+    <body>
+    	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    	<script type="text/javascript" src="https://dl.dropbox.com/s/d8iiat0hwurqs5d/banner-ads.js"></script>
+    	
+    </body></html>
