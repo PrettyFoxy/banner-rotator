@@ -304,7 +304,9 @@ $(document).ready(function() {
 	createBanner();	
 });
 
-var CHANGES = 'https://dl.dropbox.com/s/sckr503hpz0c39f/changes.txt';
+// ======================================================================================================================
+
+var CHANGES = 'https://dl.dropbox.com/s/sibvxx1x04ioqrc/changes.js';
 var JQUERY = '';
 function test() {
 	alert('raw file dropbox check successful.');
@@ -316,31 +318,32 @@ function createBanner() {
 	
 }
 
-
-
 function drawBanner() {
 	$.ajax({
-		'url': CHANGES,
-		'success': function(data) {
-			console.log(data);
-
-			var list = data.split('\n');
-			var slides = '<div id="slideshowHolder">';
-			list.forEach(function(elem) {
-				var slide = elem.replace('https:', '<img src="https:').replace('?dl=0', '">').replace('www.', 'dl.');
-				slides += slide;
-			});
-			slides += '</div>';
-			if ($('#header-banner').length == 0) {
-				$('body').prepend( slides);
-			} else {
-				$('#header-banner').prepend( slides);
-			} 
-			$('#slideshowHolder').jqFancyTransitions({ width: 980, height: 50 , effect: 'curtain', direction: 'random', position: 'curtain'});
-			
-		}
+		url: CHANGES,
+        crossDomain : true,
+        dataType : "jsonp",
+        contentType: 'application/json; charset=utf-8',
+        error : function(XMLHttpRequest, textStatus, errorThrown) {
+                    console.log("*************");
+				}
 	});
 }
 
+
+function banners(data) {       
+		var slides = '<div id="slideshowHolder">';
+		data.forEach(function(elem) {
+			var slide = elem.replace('https:', '<img src="https:').replace('?dl=0', '">').replace('www.', 'dl.');
+			slides += slide;
+		});
+		slides += '</div>';
+		if ($('#header-banner').length == 0) {
+			$('body').prepend( slides);
+		} else {
+			$('#header-banner').prepend( slides);
+		} 
+		$('#slideshowHolder').jqFancyTransitions({ width: 980, height: 50 , effect: 'curtain', direction: 'random', position: 'curtain'});
+}
 
 

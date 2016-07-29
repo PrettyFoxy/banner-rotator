@@ -20,7 +20,20 @@
 
 1. Upload the photos to dropbox
 2. **Right Click** the image file and Click "**Copy the dropbox link**"
-3. Paste the link to the ***changes.txt*** file inside the Dropbox folder
+3. Paste the link to the ***changes.js*** file inside the Dropbox folder
+example:
+	var a = "https://www.dropbox.com/s/8bjr0gdc7us3ivk/header-1.png?dl=0"
+	var b = "https://www.dropbox.com/s/z51j2k421kh8s1q/header-2.png?dl=0"
+	var c = "https://www.dropbox.com/s/h6cqg8wl1f3hzgf/header-3.png?dl=0"
+	var d = "https://www.dropbox.com/s/3puu4wqafu0vegh/header-4.png?dl=0"
+	var e = "https://www.dropbox.com/s/9a0jy6k6kkvrrse/header-5.png?dl=0"
+	var f = "https://www.dropbox.com/s/wnjvh34fbuzoano/header-6.png?dl=0"
+
+	banners([
+	a,b,c,d,e,f
+	])
+
+
 
 
 ----------
@@ -30,7 +43,7 @@
 
 1. banner rotator file (public Dropbox JS file):
 https://dl.dropbox.com/s/d8iiat0hwurqs5d/banner-ads.js
-2. changes.txt - https://dl.dropbox.com/s/sckr503hpz0c39f/changes.txt
+2. changes.js - https://dl.dropbox.com/s/sibvxx1x04ioqrc/changes.js
 
 IMAGE URL LINKS (contents):
  https://www.dropbox.com/s/8bjr0gdc7us3ivk/header-1.png?dl=0
@@ -43,7 +56,7 @@ https://www.dropbox.com/s/wnjvh34fbuzoano/header-6.png?dl=0
 Note:  must modified ***banner-ads.js*** with below code: (containing the ***changes.txt*** file)
 
     // some codes here
-    var CHANGES = 'https://dl.dropbox.com/s/sckr503hpz0c39f/changes.txt';
+    var CHANGES = 'https://dl.dropbox.com/s/sibvxx1x04ioqrc/changes.js';
     // some codes here
 
 
