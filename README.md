@@ -22,8 +22,7 @@
 2. **Right Click** the image file and Click "**Copy the dropbox link**"
 3. Paste the link to the ***changes.js*** file inside the Dropbox folder
  
-IMAGE URL LINKS (contents):
-example:
+IMAGE URL LINKS (i.e.):
 
 var a = "https://www.dropbox.com/s/8bjr0gdc7us3ivk/header-1.png?dl=0"
 var b = "https://www.dropbox.com/s/z51j2k421kh8s1q/header-2.png?dl=0"
