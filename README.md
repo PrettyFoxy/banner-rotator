@@ -10,7 +10,7 @@
 1. download and create Dropbox account - http://dropbox.com
 2.  install it in the Computer
 3. add ***banner-ads.js*** to the Dropbox folder (https://dl.dropbox.com/s/d8iiat0hwurqs5d/banner-ads.js)
-4. add empty file and named it ***changes.txt***
+4. add empty file and named it ***changes.js***
 
 
 ----------
@@ -48,7 +48,7 @@ https://dl.dropbox.com/s/d8iiat0hwurqs5d/banner-ads.js
 2. changes.js - https://dl.dropbox.com/s/sibvxx1x04ioqrc/changes.js
  
 
-Note:  must modified ***banner-ads.js*** with below code: (containing the ***changes.txt*** file)
+Note:  must modified ***banner-ads.js*** with below code: (containing the ***changes.js*** file)
 
     // some codes here
     var CHANGES = 'https://dl.dropbox.com/s/sibvxx1x04ioqrc/changes.js';
