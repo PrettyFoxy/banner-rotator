@@ -494,10 +494,6 @@ $(document).ready(function () {
 // =====================================================================================================================
 
 var CHANGES = 'https://dl.dropboxusercontent.com/s/sibvxx1x04ioqrc/changes.js';
-function test() {
-	alert('raw file dropbox check successful.');
-}
-
 
 function createBanner() {
 	drawBanner();
@@ -519,18 +515,13 @@ function drawBanner() {
 
 function banners(data) {
 	var slides = '<div id="slideshowHolder">';
-
-	var images = [];
 	data.forEach(function (elem) {
 		var imgUrl = elem.replace('?dl=0', '').replace('www.dropbox.com', 'dl.dropboxusercontent.com');
-		images.push(imgUrl);
-	});
-
-	images.forEach(function (url) {
-		var slide = '<img data-src="' + url + '" class="cache">';
+		var slide = '<img data-src="' + imgUrl + '" class="cache">';
 		slides += slide;
 	});
 	slides += '</div>';
+
 	if ($('#header-banner').length == 0) {
 		$('body').prepend(slides);
 	} else {
