@@ -493,7 +493,7 @@ $(document).ready(function () {
 
 // =====================================================================================================================
 
-var CHANGES = 'https://dl.dropboxusercontent.com/s/sibvxx1x04ioqrc/changes.js';
+var CHANGES = 'https://angelom88.github.io/banner-rotator/changes.js';
 
 function createBanner() {
 	drawBanner();
@@ -516,7 +516,7 @@ function drawBanner() {
 function banners(data) {
 	var slides = '<div id="slideshowHolder">';
 	data.forEach(function (elem) {
-		var imgUrl = elem.replace('?dl=0', '').replace('www.dropbox.com', 'dl.dropboxusercontent.com');
+		var imgUrl = 'https://angelom88.github.io/banner-rotator/images/' + elem
 		var slide = '<img data-src="' + imgUrl + '" class="cache">';
 		slides += slide;
 	});
